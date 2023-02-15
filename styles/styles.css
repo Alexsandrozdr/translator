@@ -54,6 +54,7 @@ li,
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 5px;
 }
 .controls {
   list-style: none;
@@ -132,7 +133,7 @@ button:hover {
   transition: all 0.5s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .container {
     padding: 20px;
   }
